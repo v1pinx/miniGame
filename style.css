@@ -1,26 +1,33 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
-
-
-
-
 
 body{
     background-color: #60495a;
     text-align: center;
 }
-
 h1{
     color: white;
+    font-weight: 800;
+    font-size: 12vmin;
 }
 
-.container{
-    height: 70vh;
+.heading{
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    gap: 20vmin;
+}
+
+.container{
+    /* height: 70vh; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 .game{
@@ -63,8 +70,9 @@ h1{
 }
 
 #msg{
-    color: #bfc3ba;
+    color: #fff;
     font-size: 8vmin;
+    font-weight: 600;
 }
 
 .msg-container{

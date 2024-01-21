@@ -3,33 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="https://its-vipin.github.io/miniGame/style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>○×ゲーム</title>
 </head>
 <body>
     <div class="msg-container hide">
         <p id="msg">Winner</p>
+        <br>
         <button id="new-btn">New Game</button>
     </div>
     <main>
-        <h1>Tic Tac Toe</h1>
-        <div class="container">
-            <div class="game">
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
+        <div class="heading">
+            <div>
+                <h1>Tic Tac Toe</h1>
+                <br>
+                <button id="reset-btn">Reset Game</button>
+            </div>
+            
+            <div class="container">
+                <div class="game">
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                </div>
             </div>
         </div>
-        <button id="reset-btn">Reset Game</button>
+        
     </main>
-    <script src="https://its-vipin.github.io/miniGame/app.js"></script>
+    <script src="/app.js"></script>
 </body>
 </html>
