@@ -11,7 +11,7 @@ body{
 h1{
     color: white;
     font-weight: 800;
-    font-size: 12vmin;
+    font-size: 10vmin;
 }
 
 .heading{
@@ -76,7 +76,7 @@ h1{
 }
 
 .msg-container{
-    height: 100vmin;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,4 +85,31 @@ h1{
 
 .hide{
     display: none;
+}
+
+@media (max-width: 975px){
+    .heading{
+        gap:5vmin;
+    }
+}
+
+@media (max-width: 875px){
+    .heading{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* gap: 20vmin; */
+    }
+    #reset-btn{
+        padding: 0.5rem;
+        font-size: 0.75rem;
+        border-radius: 0.5rem;
+    }
+    #new-btn{
+        padding: 0.5rem;
+        font-size: 0.75rem;
+        border-radius: 0.5rem;
+    }
 }
